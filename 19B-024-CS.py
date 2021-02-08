@@ -81,13 +81,13 @@ class Packet:
         self.to_rate = to_rate
 
 
-# obj_packet = Packet(from_rate=300,to_rate=400)
+obj_packet = Packet(from_rate=300,to_rate=400)
 
-# x = Multops()
-# x.update('192.168.1.4',obj_packet,True)
-# x.ratio_blocker()
-# x.update('192.168.1.4',obj_packet,True)
-# x.update('192.168.1.4',obj_packet,True)
-# x.update('192.168.1.4',obj_packet,True)
-# x.update('192.168.1.4',obj_packet,True)
-# x.ratio_blocker()
+x = Multops()
+x.update('192.168.1.4',obj_packet,True)
+x.ratio_blocker()
+x.update('192.168.1.4',obj_packet,True)
+x.update('192.168.1.4',obj_packet,True)
+x.update('192.168.1.4',obj_packet,True)
+x.update('192.168.1.4',obj_packet,True)
+x.ratio_blocker()
